@@ -1,13 +1,14 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import Toggle from "../Toggle/Toogle";
 const navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
         <div className="n-name">Omar</div>
-   
+        <Toggle />
       </div>
       {/* right */}
       <div className="n-right">
@@ -41,7 +42,7 @@ const navbar = () => {
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
+          <button className="button n-button">Contact</button>
         </Link>
       </div>
     </div>
