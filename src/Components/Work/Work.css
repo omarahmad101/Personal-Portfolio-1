@@ -112,12 +112,12 @@
     top: 8rem;
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 720px) {
     .works {
       flex-direction: column;
-      height: 55rem;
+      height: 45rem;
       padding: 0;
-      gap: 5rem;
+      gap: 1rem;
     }
   
     .w-right {

@@ -36,7 +36,12 @@ const Intro = () => {
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+          <button
+            className="button i-button"
+            onClick={() => window.open("https://wa.me/1551854773", "_blank")}
+          >
+            Hire Me
+          </button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
