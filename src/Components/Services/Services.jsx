@@ -71,7 +71,7 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"UI/UX Implementing"}
             detail={
               "Lorem ispum dummy text are usually use in section where we need some random text"
             }

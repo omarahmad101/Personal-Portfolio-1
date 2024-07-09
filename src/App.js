@@ -4,6 +4,8 @@ import Intro from "./Components/Intro/Intro";
 import Services from "./Components/Services/Services";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import Experience from "./Components/Experience/Experience";
+import Works from "./Components/Work/Work";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -18,6 +20,8 @@ function App() {
       <Navbar /> {/* Change! Capitalized Navbar */}
       <Intro />
      <Services /> 
+     <Experience />
+     <Works />
     </div>
   );
 }
