@@ -40,6 +40,11 @@ const navbar = () => {
                 Testimonial
               </Link>
             </li>
+            <li>
+              <Link to="ContactUs" spy={true} smooth={true}>
+                Contactus
+              </Link>
+            </li>
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
@@ -47,7 +52,7 @@ const navbar = () => {
             className="button n-button"
             onClick={() => window.open("https://wa.me/1551854773", "_blank")}
           >
-            Contact
+            Whatsapp
           </button>
         </Link>
       </div>

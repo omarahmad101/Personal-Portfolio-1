@@ -40,14 +40,28 @@ const Intro = () => {
             className="button i-button"
             onClick={() => window.open("https://wa.me/1551854773", "_blank")}
           >
-            Hire Me
+            Whatapp
           </button>
+
+          <Link to="ContactUs" spy={true} smooth={true}>
+            <button className="button i-button"> Contact us</button>
+          </Link>
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/omarahmad101" target="_blank">
+            {" "}
+            <img src={Github} alt="" />
+          </a>
+          <a href="http://linkedin.com/in/omarahmaddahy" target="_blank">
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/omar.a.dahy288?igsh=M29vZzBvYzhoY3V2&utm_source=qr"
+            target="_blank"
+          >
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}
